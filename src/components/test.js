@@ -8,7 +8,7 @@ class Test extends Component {
     }
     
     componentDidMount(){
-        return fetch(`http://localhost:3000/users`)
+        return fetch(`http://34.205.71.206:3030/users`)
         .then(res => res.json())
         .then(res => this.setState({users: res}))
         .catch(err => console.log(err))
