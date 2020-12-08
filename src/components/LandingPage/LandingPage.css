@@ -1,0 +1,25 @@
+.landingPage{
+    background-image: url('https://media4.giphy.com/media/3ohzdMoc6rAljbqmg8/giphy.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: right;
+    min-height: 600px;
+    height: 100%;
+    top: 0px;
+    
+
+    color: black;
+    font-family: papyrus;
+    font-weight: bolder;
+    font-size: 1.5em;
+    z-index: 2;
+
+}
+
+.break{
+    width: 200px;
+    color: blue;
+}
